@@ -20,7 +20,10 @@ You must enable external collaboration settings for your organization for approv
 1. Sign in to the [https://portal.azure.com](https://portal.azure.com) as a tenant administrator.
 2. Select **Azure Active Directory**.
 3. Select **External Identities > External collaboration settings**.
-4. Select the **Email one-time passcode** notification link you see near the top of the screen.
+
+Note that the option to "Email one-time passcode" has been moved to All Identity Providers."
+
+5. Select the **Email one-time passcode** notification link you see near the top of the screen.
 
     **Note** - A one-time passcode is a very secure way to invite a user to join your organization.
 
