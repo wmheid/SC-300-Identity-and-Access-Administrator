@@ -7,7 +7,7 @@ lab:
 
 # Lab 10 - Azure AD Authentication for Windows and Linux Virtual Machines
 
-**Note** - This lab requires an Azure Pass. Please see lab 00 for directions.
+**Note** - This lab requires an Azure Pass. Please see lab 00 for directions. - Azure Pass is not available per notes on Lab 7
 
 ## Lab scenario
 
@@ -39,7 +39,7 @@ The company has decided that Azure Active Directory should be used to login to v
 
 #### Task 2 - Azure AD login for existing Azure Virtual Machines
 
-1. Browse to **Virtual Machines** in the [https://portal.azure.com](https://portal.azure.com).
+1. Browse to **Virtual Machines** in the [https://portal.azure.com](https://portal.azure.com). - Need to add step to select the actual VM so that you can get to IAM.
 
 1. Select **Access control (IAM)**.
 
@@ -47,7 +47,7 @@ The company has decided that Azure Active Directory should be used to login to v
 
 1. Assign the following role. 
     - **Role**: Virtual Machine Administrator Login or Virtual Machine User Login
-    - **Assign access to**: User, group, service principal, or managed identity
+    - **Assign access to**: User, group, service principal, or managed identity - "User, Group, Service Principal" is one selection.  "managed identity" is a separate selection.  The way the step reads, it is easy for one to thing that this is all the same setting.
 
 1. For detailed steps, see Assign Azure roles using the Azure portal.
 
@@ -80,3 +80,6 @@ The company has decided that Azure Active Directory should be used to login to v
     - **Assign access to**: User, group, service principal, or managed identity
 
 1. For detailed steps, see Assign Azure roles using the Azure portal.
+
+
+Shouldn't there be steps for test the login at this point so that one understands how this is different that standard RDP configuration?
